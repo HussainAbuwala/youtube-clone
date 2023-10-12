@@ -1,27 +1,36 @@
-# React + TypeScript + Vite
+# YouTubeClone: Experience the Familiar, Explore the World of Content!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+YouTubeClone is an impressive web application that faithfully replicates the iconic YouTube homepage. It has been meticulously crafted using the powerful combination of Tailwind CSS, React, and TypeScript to provide a true-to-life representation of the YouTube Home page.
 
-Currently, two official plugins are available:
+![Screen Recording 2023-10-12 at 2 53 24 PM](https://github.com/HussainAbuwala/youtube-clone/assets/77569166/8c304c1a-5b21-4e9b-a240-bfb7ec6b718d)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Key UI Elements
 
-## Expanding the ESLint configuration
+### Header
+A responsive header, complete with the YouTube logo, a search bar for content discovery, voice, create, notification and profile icon for convenient account access. Whether you're a seasoned YouTube user or a first-time visitor, the interface feels like home.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Video Recommendations Carousel
+It provides a carousel showcasing an array of recommended videos tailored to user tastes. This ensures that you never miss out on the content that matters most to you. The carousel has a back and forward arrow to sift through various recommended video categories.
 
-- Configure the top-level `parserOptions` property like this:
+### Sidebar
+A responsive sidebar housing links to home page, shorts, subscriptions, library, history etc. There are two sidebar versions, one for the small screen and one for the larger-sized screens.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+### Video Grid
+A responsive video grid housing videos where each video section consist of the video thumbnail, the video duration, video title, video creator, view count and posted date. The video duration, view count and posted date are formatted accordingly to how youtube does it. Also, hovering over the video thumbnail, causes the video to play and vice versa.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+# Installation
+
+1. Clone the repository: `git clone https://github.com/HussainAbuwala/youtube-clone.git`
+2. Navigate to the project directory: `cd youtube-clone`
+3. Install the dependencies: `npm install`
+4. Start the app: `npm run dev`
+
+## Tools & Languages Used
+
+1. Tailwind CSS
+2. JavaScript
+3. React
+4. TypeScript
+5. Vite
+6. GitHub
+7. netlify
